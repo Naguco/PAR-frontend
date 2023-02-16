@@ -23,6 +23,7 @@
     "@ui5/webcomponents-icons": "^1.10.4",
     "@ui5/webcomponents-icons-business-suite": "^1.10.4",
     "@ui5/webcomponents-icons-tnt": "^1.10.4",
+    "bootstrap": "^5.2.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

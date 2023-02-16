@@ -1,0 +1,85 @@
+<div class="container">
+    <ui5-bar class="mt-1" design="Header">
+      <ui5-button design="Transparent" icon="away" slot="startContent"
+        >20:00</ui5-button
+      >
+      <ui5-button design="Positive" slot="startContent">Start clock</ui5-button>
+      <ui5-button design="Negative" slot="startContent">Stop clock</ui5-button>
+      <ui5-button design="Emphasized" slot="endContent"
+        >End Session and Save</ui5-button
+      >
+    </ui5-bar>
+    <div class="row mt-3">
+      <div class="col-md-6 mb-2">
+        <div class="row">
+          <ui5-textarea
+          rows="15"
+          placeholder="Type useful information of the session"
+        ></ui5-textarea>
+        </div>
+        <ui5-button class="mt-1 mb-2" design="Emphasized">Submit</ui5-button>
+      </div>
+      <div class="col-md-6 mb-2">
+        <ui5-card class="medium">
+          <ui5-card-header
+            slot="header"
+            title-text="In Session"
+            subtitle-text="Users joined in session"
+            status="2 of 2"
+          >
+            <ui5-icon name="group" slot="avatar"></ui5-icon>
+          </ui5-card-header>
+          <div class="card-content">
+            <ui5-list
+              separators="None"
+              class="card-content-child"
+              style="width: 100%; margin-bottom: 0.75rem"
+            >
+              <ui5-li
+                description="PS HCM EMEA 2"
+                >Francisco Gubbins</ui5-li
+              >
+              <ui5-li
+                description="PS HCM EMEA 2"
+                >Gustavo Lamas</ui5-li
+              >
+            </ui5-list>
+          </div>
+        </ui5-card>
+      </div>
+    </div>
+    <div class="row mt-1 mb-5">
+      <ui5-card class="meidum">
+        <ui5-card-header
+          slot="header"
+          title-text="Stored information"
+          subtitle-text="Historical information stored of the session"
+        >
+        </ui5-card-header>
+        <ui5-timeline>
+          <ui5-timeline-item
+            title-text="Francisco Gubbins at 2023-02-16 / 15:30:12"
+            timestamp="1517349600000"
+            icon="employee"
+          >
+            ECPAO_EE_KMAP stores the relations between external employee id
+            and pernr.
+          </ui5-timeline-item>
+          <ui5-timeline-item
+            title-text="Gustavo Lamas at 2023-02-16 / 15:33:17"
+            timestamp="1485813600000"
+            icon="employee"
+          >
+            It is mandatory to store the calls of customers on pulse.
+          </ui5-timeline-item>
+          <ui5-timeline-item
+          title-text="Gustavo Lamas at 2023-02-16 / 15:33:17"
+          timestamp="1485813600000"
+          icon="employee"
+        >
+          It is mandatory to store the calls of customers on pulse.
+        </ui5-timeline-item>
+        </ui5-timeline>
+      </ui5-card>
+    </div>
+  </div>

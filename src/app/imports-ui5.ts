@@ -7,8 +7,8 @@ import "@ui5/webcomponents-icons/dist/AllIcons.js";
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
 import "@ui5/webcomponents-icons-business-suite/dist/AllIcons.js";
 
-import "@ui5/webcomponents/dist/Avatar.js";
 import "@ui5/webcomponents/dist/Avatar";
+import "@ui5/webcomponents/dist/AvatarGroup"
 import "@ui5/webcomponents/dist/Badge";
 import "@ui5/webcomponents/dist/Breadcrumbs";
 import "@ui5/webcomponents/dist/BreadcrumbsItem";
@@ -68,6 +68,7 @@ import "@ui5/webcomponents/dist/TableCell";
 import "@ui5/webcomponents/dist/TableColumn";
 import "@ui5/webcomponents/dist/TableGroupRow";
 import "@ui5/webcomponents/dist/TableRow";
+import "@ui5/webcomponents/dist/TextArea";
 import "@ui5/webcomponents/dist/TimePickerBase";
 import "@ui5/webcomponents/dist/TimePicker";
 import "@ui5/webcomponents/dist/TimeSelection";
