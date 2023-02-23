@@ -4,15 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 import "./imports-ui5";
-import { PairSessionComponent } from './pages/pair-session/pair-session.component'
+import { PairSessionComponent } from './pages/pair-session/pair-session.component';
+import { HomeComponent } from './pages/home/home.component'
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PairSessionComponent
+    PairSessionComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
